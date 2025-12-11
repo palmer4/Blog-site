@@ -10,3 +10,59 @@ body {
     color: #333333;
     padding: 20px;
 }
+.form-group {
+    margin-bottom: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+.container {
+    margin-top: 10px;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    font-style:italic;
+}
+.password-hint {
+    font-size: 0.9em;
+    color: #666;
+}
+.terms-and-conditions {
+    margin-top: 15px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    margin-top: 10px;
+}
+div {
+    background: conical-gradient(from 0deg#f3e5c8, #ffffff);
+}

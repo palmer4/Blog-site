@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    @import url('./style.css');
+    </style>
+
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Account</h1>
+
+        <form id="account-creation-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="input your username">
+                <div class="error-message" id="errorMessage">please enter a valid name </div>
+
+
+
+<div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="input your email">
+                <div class="error-message" id="errorMessage">please enter a valid email </div>
+
+
+            
+<div class="form-group">
+                <label for="password">password:</label>
+                <input type="text" id="password" name="password" placeholder="Create a password"required>
+                <div class="password-hint">Password must be at least 8 characters long and include a number.</div>
+                <div class="error-message" id="errorMessage">please enter a valid password </div>
+
+<div class="form-group">
+                <label for="confirmPassword">confirmPassword:</label>
+                <input type="text" id="confirmPassword" name="confirmPassword" placeholder="Confirm password"required>
+                <div class="password-hint">Password must be at least 8 characters long and include a number.</div>
+                <div class="error-message" id="errorMessage">passwords do not match </div>
+
+                <div class="container">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label> 
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </div>
+
+<div class="terms and conditions">
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+</div>
+
+            <button type="submit" class="btn-submit">Create Account</button>
+
+
+            <div class=""login-link>
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+</form>
+    </div>
+
+
+
+</body>
+</html>
