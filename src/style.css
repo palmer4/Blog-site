@@ -9,6 +9,7 @@ body {
     background-color: #f3e5c8;
     color: #333333;
     padding: 20px;
+    
 }
 .form-group {
     margin-bottom: 15px;
@@ -65,4 +66,9 @@ a:hover {
 }
 div {
     background: conical-gradient(from 0deg#f3e5c8, #ffffff);
+}
+p1 {
+    background-color: rgb(235, 157, 102);
+    color: #555555;
+
 }
