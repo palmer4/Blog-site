@@ -18,14 +18,14 @@
         <form id="account-creation-form">
             <div class="form-group">
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="input your username">
+                <input type="text" id="username" name="username" placeholder="input your username"required>
                 <div class="error-message" id="errorMessage">please enter a valid name </div>
 
 
 
 <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="input your email">
+                <input type="email" id="email" name="email" placeholder="input your email"required>
                 <div class="error-message" id="errorMessage">please enter a valid email </div>
 
 
@@ -44,7 +44,7 @@
 
                 <div class="container">
                     <input type="radio" id="male" name="gender" value="male" required>
-                    <label for="male">Male</label> 
+                    <label for="male">Male</label>
                     <input type="radio" id="female" name="gender" value="female" required>
                     <label for="female">Female</label>
                     <input type="radio" id="other" name="gender" value="other" required>
@@ -53,14 +53,14 @@
 
 <div class="terms and conditions">
     <input type="checkbox" id="terms" name="terms" required>
-    <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+    <label for="terms">I agree to the <a href="about-us.html">Terms and Conditions</a></label>
 </div>
 
-            <button type="submit" class="btn-submit">Create Account</button>
+            <!--<button type="submit" class="btn-submit">log in</button>-->
 
 
             <div class="login-link">
-                <p>Already have an account? <a href="login.html">Login here</a></p>
+                <p>To log in <a href="login.html">Click here</a></p>
             </div>
 </form>
     </div>
