@@ -2,6 +2,11 @@ h1 {
     color: #161615;
     font-size: 2em;
     margin-bottom: 0.5em;
+    text-align: center;
+    text-shadow: #ccc 2px 2px 4px;
+    background-color: salmon;
+    text-indent: 20px;
+    border-radius: 5px;
 }
 body {
     font-family: Arial, sans-serif;
@@ -15,6 +20,7 @@ body {
     margin-bottom: 15px;
     display: table-cell;
     vertical-align: middle;
+    
 }
 label {
     display: block;
@@ -70,5 +76,16 @@ div {
 p1 {
     background-color: rgb(235, 157, 102);
     color: #555555;
+
+}
+h2 {
+    background-color: salmon;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: brown 1px 1px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
 
 }
