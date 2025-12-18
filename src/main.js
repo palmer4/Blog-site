@@ -1,22 +1,19 @@
-/*document.getElementById("account-creation-form").addEventListener("submit", function(e) {
+const toggle = document.getElementById("themeToggle");
 
-    e.preventDefault();
-
-    const userData = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    password: document.getElementById("password").value
-};
-
-localStorage.setItem("userData", JSON.stringify(userData));
-
-alert("Account created successfully!");
-window.location.href = "login.html";
-
-window.location.href = "login.html";
+toggle.addEventListener("click", () => {
+    document.body.classList.toggle("light");
+    toggle.textContent =
+        document.body.classList.contains("light") ? "🎇" : "🐱‍👤";
 });
-*/
 
-document.getElementById("login").onClick = function() {
-    window.location.href = "login.html";
-};
+
+document.querySelectorAll("post").forEach((post, i) => {
+    post.computedStyleMap.opacity = 0;
+    post.computedStyleMap.transform = `translateY(40px)`;
+    
+    setTimeout(() => {
+        post.style.transition = "opacity 0.8s";
+        post.style.opacity = 1;
+        post.style.transform = "translateY(0)";
+    }, i * 200);
+});
